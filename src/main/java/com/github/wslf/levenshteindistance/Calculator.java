@@ -44,10 +44,10 @@ public class Calculator {
 
     public double getDistance(CharSequence first, CharSequence second) {
         int levenshteinDistance = getLevenshteinDistance(first, second);
-        double similarity = levenshteinDistance;
-        similarity /= Math.max(first.length(), second.length());
+        double distance = levenshteinDistance;
+        distance /= Math.min(first.length(), second.length());
         
-        return similarity;
+        return distance;
     }
     
     public int getLevenshteinDistanceIgnoreCase(CharSequence first, CharSequence second) {
