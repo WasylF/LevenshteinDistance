@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.wslf</groupId>
     <artifactId>LevenshteinDistance</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Levenshtein Distance</name>
     <description>Library that allows easy calculate Levenshtein distance and "difference metric" ( range [0;1]) between words</description>
